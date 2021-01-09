@@ -52,3 +52,11 @@ calculate the its point and opponient’s point then select the case
 with maximum point between it and player.
 - Use the following scoring function to evaluate the leaves of the
 tree: score = score(AI) – score(Player)
+```
+If we only use minimax algorithm for the game, the AI has to try many
+positions. For example, a 3x3 board already has 18! (6.4e15) states to
+investigate. Consequently, it is not feasible to traverse the entire tree, which is
+why we have to set a time limit for each move. Accordingly, this means that
+weare not traversing the entire tree; this algorithm might fail to find the best
+move. To solve this problem, we have to use alpha-beta pruning to optimize it.
+```
