@@ -19,8 +19,8 @@ of 4 line of that box.
 - The main algorithm is minimax and alpha-beta pruning
 algorithm
 - When each player choose a edge to draw, the value of the
-position in matrix A(if that edge is a horizontal edges) or
-B((if that edge is a vertical edges) that correspond to the
+position in matrix A (if that edge is a horizontal edges) or
+B (if that edge is a vertical edges) that correspond to the
 edge of table will be change:
   > 1 if it is turn of player 1\
   > 2 if it is turn of player 2
@@ -34,3 +34,21 @@ matrix S are different 0.
 base on the matrix A, B and S.
 - We will use the minimax algorithm to find the best way that
 each player can choose and perform it.
+## 3. Algorithm for the problem:
+### Minimax stragety:
+This algorithm assigns a good score to a move that will give points to the
+player. On the otherhand, it will give a bad score to a move which allows the
+opponent to finish the square in the future:
+- We assume that our AI is the maximizing and the opponent is the
+minimizing.
+- The algorithm takes as input the state of the game, the current
+depth of investigation of the tree and whether the move has to be
+played by the maximizing or minimizing player.
+- It is going to calculate the evaluation function at each level and
+thus determine if the move leading to the given state is a good
+move.
+- Whenever the AI moves, it will consider all possible cases and
+calculate the its point and opponient’s point then select the case
+with maximum point between it and player.
+- Use the following scoring function to evaluate the leaves of the
+tree: score = score(AI) – score(Player)
