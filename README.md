@@ -14,7 +14,7 @@ of 4 line of that box.
 **Where:** 
 - Matrix A show the state of horizontal edges
 - Matrix B show the state of vertical edges
-- Matrix S show the state of 1x1 squares\
+- Matrix S show the state of 1x1 squares
 **Algorithm:**
 - The main algorithm is minimax and alpha-beta pruning
 algorithm
