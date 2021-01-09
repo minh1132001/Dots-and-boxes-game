@@ -59,7 +59,7 @@ investigate. Consequently, it is not feasible to traverse the entire tree, which
 why we have to set a time limit for each move. Accordingly, this means that
 weare not traversing the entire tree; this algorithm might fail to find the best
 move. To solve this problem, we have to use alpha-beta pruning to optimize it.
-### alpha-beta pruning:
+### Alpha-beta pruning:
 This algorithm is aimed to prune the MiniMax game tree:
 - Alpha is the current maximum value and beta is the current
 minimum value.
@@ -79,9 +79,9 @@ algorithm discards the move.
 minimax algorithm
 ## Improve the algorithm (Heuristic):
 - To reduce the time complexity of these algorithm, we let the AI
-consider its next 3 turns
+consider its next 3 turns.
 - This will reduce the accuracy of the algorithm but it can solve the
-time execution
+time execution.
 
 # Conclusion.
 - First, Dots-And-Boxes is a game worth studying because it is an
