@@ -21,10 +21,10 @@ algorithm
 - When each player choose a edge to draw, the value of the
 position in matrix A(if that edge is a horizontal edges) or
 B((if that edge is a vertical edges) that correspond to the
-edge of table will be change:
-  1 if it is turn of player 1
-  2 if it is turn of player 2
+edge of table will be change:\
+  1 if it is turn of player 1\
+  2 if it is turn of player 2\
 - If there is a 1x1 square formed the value of the position in
 matrix S that correspond to the edge of table will be change:
-  1 if it is turn of player 1
+  1 if it is turn of player 1\
   2 if it is turn of player 2
