@@ -8,13 +8,13 @@ point that is equal to the number of the lines that player drawn out
 of 4 line of that box.
  * The game ends when no more lines can be placed.
  * The winner is the player with the most points.
-2. Problem description:
- **Input**:\ 
+2. Problem description:\
+ **Input**: 
  a 4x3 zeros matrix A, a 3x4 zeros matrix B, a 3x3 matrix S
 - Where: Matrix A show the state of horizontal edges
 - Matrix B show the state of vertical edges
-- Matrix S show the state of 1x1 squares
- **Algorithm:**\
+- Matrix S show the state of 1x1 squares\
+ **Algorithm:**
 - The main algorithm is minimax and alpha-beta pruning
 algorithm
 - When each player choose a edge to draw, the value of the
