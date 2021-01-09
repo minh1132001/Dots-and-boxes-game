@@ -14,7 +14,7 @@ of 4 line of that box.
 **Where:** 
 - Matrix A show the state of horizontal edges
 - Matrix B show the state of vertical edges
-- Matrix S show the state of 1x1 squares
+- Matrix S show the state of 1x1 squares\
 **Algorithm:**
 - The main algorithm is minimax and alpha-beta pruning
 algorithm
@@ -28,3 +28,9 @@ edge of table will be change:\
 matrix S that correspond to the edge of table will be change:\
   *1 if it is turn of player 1*\
   *2 if it is turn of player 2*
+ - This process will be continuous until all element in the
+matrix S are different 0.
+- After all the score of player1 and player 2 will be calculate
+base on the matrix A, B and S.
+- We will use the minimax algorithm to find the best way that
+each player can choose and perform it.
